@@ -46,8 +46,9 @@ fn main ()
     io::stdin().read_line(&mut operation).expect("Failed");
     let operation : i32 = operation.trim().parse().expect("Failed to parse!");
     println!();
-
+	
     // Switch case for the operations
+    // Need to learn how to do the Do While loop on Rust to make the program easier and better to use
     if operation == 1
     {
       println!();
