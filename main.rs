@@ -8,7 +8,6 @@ fn main ()
   let mut n1 = String::new();
   let mut n2 = String::new();
   let mut operation = String::new();
-  let mut leave = String::from("yes");
 
 	// Reading the inputs
 	println!("Hello, use! What's your name? ");
