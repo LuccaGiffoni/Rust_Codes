@@ -20,6 +20,7 @@ fn main ()
 	let age : i32 = age.trim().parse().expect("Failed to parse!");
   println!();
 
+  // Making the calculator
 	if age >= 18
   {
 		println!("\nYou are able to use the calculator!");
@@ -57,7 +58,7 @@ fn main ()
     {
       println!();
       println!("{ } - { } = { }", n1, n2, n1 - n2);
-      println!("\nAND\n{ } - { } = { }", n2, n1, n2 - n1);
+      println!("AND\n{ } - { } = { }", n2, n1, n2 - n1);
     }
 
     else if operation == 3
